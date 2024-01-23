@@ -1,0 +1,23 @@
+﻿<Window x:Class="OIRA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OIRA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFF47BF5" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label x:Name="Username" Content="Username" HorizontalAlignment="Left" Height="23" Margin="279,166,0,0" VerticalAlignment="Top" Width="73" FontFamily="Perpetua Titling MT"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Margin="362,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="278,228,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.629,0.522" FontFamily="Perpetua Titling MT"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="362,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="380,275,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.871,2.808" FontFamily="French Script MT" Height="30" Width="84" FontSize="20" Click="Login_Click"/>
+
+    </Grid>
+</Window>

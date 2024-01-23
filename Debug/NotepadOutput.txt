@@ -1,0 +1,5 @@
+Username: Oira
+Amount Deposited: 500
+Remaining Balance: 1000
+Date: 23/01/2024 6:39:13 am
+Transaction: Deposit
